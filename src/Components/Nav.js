@@ -35,6 +35,8 @@ export default function DesktopNav() {
           }}
         >
           <Button
+            component="a"
+            href="/"
             sx={{
               mx: 3,
               textTransform: "none",
@@ -55,6 +57,9 @@ export default function DesktopNav() {
             Privacy
           </Button>
           <Button
+            component="a"
+            href="https://github.com/deku-messaging/Deku-SMS-Android"
+            target="_blank"
             sx={{
               mx: 3,
               textTransform: "none",
@@ -65,6 +70,9 @@ export default function DesktopNav() {
             Tutorials
           </Button>
           <Button
+            component="a"
+            href="https://github.com/deku-messaging/Deku-SMS-Android"
+            target="_blank"
             sx={{
               mx: 3,
               textTransform: "none",
@@ -74,7 +82,11 @@ export default function DesktopNav() {
           >
             Blogs
           </Button>
-          <IconButton>
+          <IconButton
+            component="a"
+            href="https://github.com/deku-messaging/Deku-SMS-Android"
+            target="_blank"
+          >
             <FaGithub />
           </IconButton>
         </Box>

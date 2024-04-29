@@ -20,11 +20,7 @@ function MobileNav() {
   };
 
   return (
-    <nav
-      position="static"
-      className="cards"
-      style={{ backgroundColor: "black" }}
-    >
+    <nav position="static" className="cards">
       <Container
         maxWidth="sm"
         sx={{
@@ -73,19 +69,34 @@ function MobileNav() {
                 display: { xs: "block", md: "none" },
               }}
             >
-              <MenuItem onClick={handleCloseNavMenu}>
+              <MenuItem onClick={handleCloseNavMenu} component="a" href="/">
                 <Typography textAlign="center">Home</Typography>
               </MenuItem>
 
-              <MenuItem onClick={handleCloseNavMenu}>
+              <MenuItem
+                onClick={handleCloseNavMenu}
+                component="a"
+                href="https://github.com/deku-messaging/Deku-SMS-Android"
+                target="_blank"
+              >
                 <Typography textAlign="center">Pricavy</Typography>
               </MenuItem>
 
-              <MenuItem onClick={handleCloseNavMenu}>
+              <MenuItem
+                onClick={handleCloseNavMenu}
+                component="a"
+                href="https://github.com/deku-messaging/Deku-SMS-Android"
+                target="_blank"
+              >
                 <Typography textAlign="center">Tutorials</Typography>
               </MenuItem>
 
-              <MenuItem onClick={handleCloseNavMenu}>
+              <MenuItem
+                onClick={handleCloseNavMenu}
+                component="a"
+                href="https://github.com/deku-messaging/Deku-SMS-Android"
+                target="_blank"
+              >
                 <Typography textAlign="center">Blogs</Typography>
               </MenuItem>
 

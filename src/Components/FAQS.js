@@ -34,15 +34,16 @@ export default function Faqs() {
           id="panel1-header"
         >
           <Typography variant="body1" sx={{ fontWeight: 700 }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Is Deku SMS is Safe?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            dignissim purus eu nunc ullamcorper, vel convallis ante tincidunt.
-            Vivamus lacinia, lacus nec tristique bibendum, velit libero
-            consequat purus, ut finibus ex lectus eget nisi. Nulla facilisi.
+            Deku SMS tries to provide users with secured options for
+            transmitting messages. All the features and functionalities it
+            offers are optional for the users. It's best to take no ones claims
+            for how safe an app is to use, personal due diligence is always a
+            good thing.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -53,35 +54,13 @@ export default function Faqs() {
           id="panel2-header"
         >
           <Typography variant="body1" sx={{ fontWeight: 700 }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Is Deku SMS end-to-end encrypted?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            dignissim purus eu nunc ullamcorper, vel convallis ante tincidunt.
-            Vivamus lacinia, lacus nec tristique bibendum, velit libero
-            consequat purus, ut finibus ex lectus eget nisi. Nulla facilisi.
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      {/*  */}
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2-content"
-          id="panel2-header"
-        >
-          <Typography variant="body1" sx={{ fontWeight: 700 }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            dignissim purus eu nunc ullamcorper, vel convallis ante tincidunt.
-            Vivamus lacinia, lacus nec tristique bibendum, velit libero
-            consequat purus, ut finibus ex lectus eget nisi. Nulla facilisi.
+            Deku SMS supports end to end encryption (with Perfect Forward
+            Secrecry - PFS) for users.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -93,16 +72,39 @@ export default function Faqs() {
           id="panel2-header"
         >
           <Typography variant="body1" sx={{ fontWeight: 700 }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            How does Deku SMS end-to-end encryption work?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            dignissim purus eu nunc ullamcorper, vel convallis ante tincidunt.
-            Vivamus lacinia, lacus nec tristique bibendum, velit libero
-            consequat purus, ut finibus ex lectus eget nisi. Nulla facilisi.
+            Deku SMS supports end to end encryption (with Perfect Forward
+            Secrecry - PFS) for users. For the feature to work, both users need
+            to be using Deku SMS as their default SMS app. This is because there
+            are protocols in Deku SMS that{" "}
+            <span>
+              <a
+                href="https://github.com/deku-messaging/Deku-SMS-Android?tab=readme-ov-file#-end-to-end-encryption"
+                target="_blank"
+              >
+                read more...
+              </a>
+            </span>
           </Typography>
+        </AccordionDetails>
+      </Accordion>
+      {/*  */}
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2-content"
+          id="panel2-header"
+        >
+          <Typography variant="body1" sx={{ fontWeight: 700 }}>
+            Is Deku SMS open source?
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>Deku SMS is completely open source</Typography>
         </AccordionDetails>
       </Accordion>
       {/*  */}

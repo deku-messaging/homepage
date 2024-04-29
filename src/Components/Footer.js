@@ -1,12 +1,6 @@
 import { Box, Typography, Grid, Divider, IconButton } from "@mui/material";
 import React from "react";
-import {
-  FaFacebook,
-  FaGithub,
-  FaLinkedin,
-  FaXTwitter,
-  FaYoutube,
-} from "react-icons/fa6";
+import { FaGithub, FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -21,27 +15,17 @@ export default function Footer() {
           <Typography variant="body1" sx={{ pt: 1, pr: 3 }}>
             Follow us
           </Typography>
-          <IconButton>
+          <IconButton component="a" href="/">
             <FaXTwitter size="20px" />
           </IconButton>
-          <IconButton>
-            {" "}
-            <FaFacebook size="20px" />{" "}
-          </IconButton>
 
-          <IconButton>
-            {" "}
-            <FaLinkedin size="20px" />{" "}
-          </IconButton>
-
-          <IconButton>
+          <IconButton
+            component="a"
+            href="https://github.com/deku-messaging/Deku-SMS-Android"
+            target="_blank"
+          >
             {" "}
             <FaGithub size="20px" />{" "}
-          </IconButton>
-
-          <IconButton>
-            {" "}
-            <FaYoutube size="20px" />{" "}
           </IconButton>
         </Box>
         <Divider />
@@ -61,10 +45,10 @@ export default function Footer() {
                   Blogs
                 </Typography>
                 <Typography variant="body1" sx={{ p: 2 }}>
-                  RelaySMS
+                  Tutorials
                 </Typography>
                 <Typography variant="body1" sx={{ p: 2 }}>
-                  Deku SMS
+                  Privacy
                 </Typography>
                 <Typography variant="body1" sx={{ p: 2 }}>
                   Developers

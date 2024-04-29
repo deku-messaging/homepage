@@ -3,15 +3,13 @@ import {
   Typography,
   Box,
   Card,
-  IconButton,
-  Divider,
   List,
   ListItem,
   ListItemIcon,
   ListItemText,
 } from "@mui/material";
 import React from "react";
-import { FaCircle, FaCircleChevronRight } from "react-icons/fa6";
+import { FaCircle } from "react-icons/fa6";
 import Faqs from "../Components/FAQS";
 
 export default function Landing() {
@@ -22,7 +20,11 @@ export default function Landing() {
         className="bg"
         container
         rowSpacing={4}
-        sx={{ px: { md: 15, sm: 10, xs: 3 }, my: { md: 7, xs: 5 } }}
+        sx={{
+          px: { md: 15, sm: 10, xs: 3 },
+          mb: { md: 7, xs: 5 },
+          mt: { md: 2, xs: 2 },
+        }}
       >
         <Grid
           item
@@ -38,15 +40,22 @@ export default function Landing() {
         </Grid>
         <Grid item md={6} xs={12} my="auto">
           <Typography variant="h3" sx={{ fontWeight: 700 }}>
-            Fully encrypted end-to-end SMS messaging application.
+            Deku SMS is an Android SMS app.
           </Typography>
           <Typography variant="h5" sx={{ mt: 7, opacity: "70%" }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            dignissim purus eu nunc ullamcorper, vel convallis ante tincidunt.
+            Deku SMS is being developed as a proof-of-concept for secure SMS
+            messaging, SMS image transmission and SMS-Cloud communications.
           </Typography>
           {/*  */}
-          <Grid container alignItems="center" columnSpacing={4}>
-            <Grid item md={4} xs={6}>
+          <Grid container alignItems="center" columnSpacing={4} sx={{ mt: 5 }}>
+            <Grid
+              item
+              md={4}
+              xs={6}
+              component="a"
+              href="https://play.google.com/store/apps/details?id=com.afkanerd.deku"
+              target="_blank"
+            >
               <Box
                 className="goggle-play"
                 component="img"
@@ -54,7 +63,22 @@ export default function Landing() {
                 sx={{ width: "100%" }}
               />
             </Grid>
-            <Grid item md={4} xs={6}>
+            <Grid
+              item
+              md={4}
+              xs={6}
+              component="a"
+              href="https://f-droid.org/packages/com.afkanerd.deku/"
+              target="_blank"
+            >
+              <Box
+                className="goggle-play"
+                component="img"
+                src="/fdroid.png"
+                sx={{ width: "100%" }}
+              />
+            </Grid>
+            {/* <Grid item md={4} xs={6}>
               <Typography variant="h6">
                 Deku Web{" "}
                 <IconButton>
@@ -62,7 +86,7 @@ export default function Landing() {
                 </IconButton>
               </Typography>
               <Divider sx={{ width: "75%" }} />
-            </Grid>
+            </Grid> */}
           </Grid>
         </Grid>
       </Grid>
@@ -79,10 +103,11 @@ export default function Landing() {
           What is Deku SMS
         </Typography>
         <Typography variant="h5" sx={{ p: { md: 5, xs: 2 }, opacity: "75%" }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim
-          purus eu nunc ullamcorper, vel convallis ante tincidunt. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit. Sed dignissim purus eu
-          nunc ullamcorper, vel convallis ante tincidunt.
+          Deku SMS is a feature-rich, open-source default SMS app designed to
+          enhance your messaging experience while prioritizing your privacy and
+          security. With Deku SMS, you can seamlessly send and receive
+          end-to-end encrypted SMS messages, ensuring that your conversations
+          remain confidential.
         </Typography>
       </Box>
       {/*  */}
@@ -115,7 +140,9 @@ export default function Landing() {
                     <FaCircle />
                   </ListItemIcon>
                   <ListItemText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    End-to-end encryption: Protect your SMS conversations with
+                    robust encryption, giving you peace of mind that your
+                    messages are secure.
                   </ListItemText>
                 </ListItem>
                 <ListItem>
@@ -123,7 +150,8 @@ export default function Landing() {
                     <FaCircle />
                   </ListItemIcon>
                   <ListItemText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Image sharing: Easily send and receive images over SMS,
+                    making your conversations more engaging and expressive.
                   </ListItemText>
                 </ListItem>
                 <ListItem>
@@ -131,15 +159,9 @@ export default function Landing() {
                     <FaCircle />
                   </ListItemIcon>
                   <ListItemText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </ListItemText>
-                </ListItem>
-                <ListItem>
-                  <ListItemIcon>
-                    <FaCircle />
-                  </ListItemIcon>
-                  <ListItemText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Message forwarding: Configure the app to forward your SMS
+                    messages to your online servers, allowing you to access your
+                    messages from any device.
                   </ListItemText>
                 </ListItem>
               </List>
