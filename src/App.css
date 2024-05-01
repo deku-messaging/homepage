@@ -1,0 +1,11 @@
+body {
+  background-color: #181619 !important;
+}
+.MuiAccordion-root {
+background-color: transparent !important
+}
+.bg{
+  background-image: url(/public/ban.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
