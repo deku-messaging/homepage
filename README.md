@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Deku SMS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Deku SMS project homepage!
 
-## Available Scripts
+This project was crafted with [React](https://github.com/facebook/create-react-app) for a seamless development experience.
 
-In the project directory, you can run:
+## Getting Started
 
-### `yarn start`
+To get started, navigate to the project directory and execute the following commands:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+yarn install
+yarn start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This will launch the application in development mode. You can then access it in your browser at [http://localhost:3000](http://localhost:3000). The page will automatically reload as you make changes, and any lint errors will be displayed in the console.
 
-### `yarn test`
+## Contribution Guide
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We welcome contributions to Deku SMS! To contribute, please follow these steps:
 
-### `yarn build`
+1. Fork the repository to your GitHub account.
+2. Clone the forked repository to your local machine.
+3. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature-name
+   ```
+   Replace `feature-name` with a descriptive name for your feature or bug fix.
+4. Make your changes and commit them with descriptive commit messages:
+   ```bash
+   git commit -am "Brief description of changes"
+   ```
+5. Push your changes to your forked repository:
+   ```bash
+   git push origin feature-name
+   ```
+6. Open a pull request (PR) from your forked repository's branch to the `dev` branch of the main repository.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Once your PR is opened, our team will review your changes and work with you to merge them into the `dev` branch.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Other Packages Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In addition to React, we utilized the following packages to enhance functionality:
 
-### `yarn eject`
+- MUI
+- React Icons
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore and contribute to make Deku SMS even better!
